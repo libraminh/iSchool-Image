@@ -1,0 +1,38 @@
+.home3 {
+  .home-signup{
+    background-image: url('../img/image/home3/signup-bg.png');
+    background-size: cover;
+    padding: 0;
+
+    .col-md-12:first-child {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &-wrap-content {
+      position: static;
+      transform: none;
+      transform: translateX(-5rem);
+    }
+
+    &-wrap-content-primary {
+      background: none;
+
+      h3 {
+        background: url('../img/home/signup/logo.png') no-repeat center;
+        background-size: 30%;
+      }
+
+      .form-control {
+        background: #fcd101;
+      }
+
+      .btn-three {
+        background: $accent-color1;
+        color: $white-color;
+        padding: 15px 30px;
+      }
+    }
+  }
+}

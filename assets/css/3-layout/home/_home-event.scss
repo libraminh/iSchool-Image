@@ -1,0 +1,95 @@
+.home-event {
+  padding: 130px 0 84px;
+  @include font('Montserrat');
+
+  &-title {
+    font-size: 36px;
+    background: url('../img/home/event/logo.png') no-repeat center;
+    background-size: 15%;
+    margin-bottom: 70px;
+  }
+
+  .card, #card2 {
+    width: 100% !important;
+    border: 1px solid $border-color1;
+    border-radius: 0 !important;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 2rem;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+      box-shadow: 3px 5px 22px -1px rgba(204, 204, 204, 0.5);
+    }
+
+    &-date {
+      display: flex;
+      flex-direction: column;
+      background: $accent-color;
+      padding: 1rem 0.8rem;
+      word-wrap: break-word;
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-align: center;
+      color: $white-color;
+
+      @include hoverColor($accent-color1);
+    }
+
+    &-img-top {
+      display: block;
+      width: 470px;
+      border-radius: 0 !important;
+
+      img {
+        display: block;
+        width: 470px;
+        height: 280px;
+        margin: 0 !important;
+      }
+    }
+
+    &-body {
+      border: 1px solid $border-color1;
+      width: 63%;
+      height: 240px;
+      background: $white-color;
+      margin: auto 0;
+      padding: 40px 60px;
+      position: absolute;
+      top: 50%;
+      right: 2%;
+      transform: translateY(-50%);
+
+      .card-title {
+        font-size: 20px;
+        line-height: 24px;
+        color: $dark-color;
+        font-weight: 600;
+        @include hoverColor($accent-color1);
+      }
+
+      .card-text {
+        font-size: 14px;
+        color: $text-color3;
+        font-weight: 500;
+      }
+
+      .card-address, .card-time {
+        color: $text-color1;
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0.5rem 0;
+      }
+
+      .btn-globe {
+        padding: 1rem 3rem;
+        position: absolute;
+        right: 2rem;
+        bottom: 2rem;
+      }
+    }
+  }
+}

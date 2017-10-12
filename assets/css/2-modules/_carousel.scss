@@ -1,0 +1,131 @@
+.carousel-1, .carousel-2, .carousel-3, .carousel-4, .carousel-5, .carousel-6, .carousel-7, .carousel-8, .carousel-9, .carousel-12  {
+  .owl-dot {margin-top: 35px;}
+
+  .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    border-radius: 0 !important;
+    border: 1.2px dotted $text-color;
+    background: none !important;
+    transform: rotate(45deg);
+    position: relative;
+
+    &:hover {
+      border-color: $accent-color;
+    }
+
+    &:hover::after {
+      opacity: 1;
+    }
+
+    &:after {
+      opacity: 0;
+      display: block;
+      content: '';
+      width: 10px;
+      height: 10px;
+      background: $accent-color1;
+      position: absolute;
+      top: 0.05rem;
+      left: 0.1rem;
+    }
+  }
+
+  .owl-dots .owl-dot.active span {
+    border-color: $accent-color;
+
+    &:after {
+      opacity: 1;
+      display: block;
+      content: '';
+      width: 10px;
+      height: 10px;
+      background: $accent-color1;
+      position: absolute;
+      top: 0.05rem;
+      left: 0.1rem;
+    }
+  }
+}
+
+
+.carousel-4 {
+  .item {
+    padding: 20px;
+  }
+
+  .owl-next, .owl-prev {
+    border-radius: 0 !important;
+    padding: 0px !important;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: rgba(black,0.1) !important;
+    font-size: 24px !important;
+    position: absolute;
+    top: 40%;
+    left: 14px;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+
+  .owl-next {
+    left: auto;
+    right: 14px;
+  }
+}
+
+.carousel-5, .carousel-8 {
+  .owl-dots {
+    float: left;
+  }
+}
+
+
+.carousel-10 {
+  .item {
+    .globe-wrap-1 {
+      &:before {
+        border-color: $accent-color;
+      }
+    }
+  }
+}
+
+.carousel-11 {
+  .owl-nav {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    .owl-prev, .owl-next {
+      font-size: 24px;
+      color: #969790;
+      background: none;
+      border: 1px solid #969790;
+      border-radius: 0;
+      display: flex;
+      width: 40px;
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.carousel-12 {
+  .item {
+    .globe-wrap-1 {
+      &:before {
+        border-color: #817d73;
+      }
+    }
+  }
+}
+
+.carousel-10, .carousel-12 {
+  .item {
+    padding: 20px;
+  }
+}

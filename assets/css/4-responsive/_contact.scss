@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .contact-page {
+    .contact-table {
+      margin-bottom: 30px;
+      
+      &:before {
+        display: none;
+      }
+    }
+  }
+}

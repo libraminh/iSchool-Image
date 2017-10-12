@@ -1,0 +1,38 @@
+.event-detail {
+  .single-course-right-enroll {
+    justify-content: flex-start;
+
+    &-wrap {
+      flex: 1;
+      margin-right: 30px;
+      align-items: flex-start;
+
+      span:nth-child(1) {
+        margin-right: 15px;
+      }
+    }
+
+    &-subject {
+      margin-bottom: 10px;
+    }
+  }
+
+  .single-course-right-tab-wrap {
+    margin-bottom: 30px;
+
+    .single-course-right-enroll-box {
+      margin-top: -5px;
+    }
+
+    .btn-two {
+      padding: 15px 40px;
+    }
+
+    .single-course-right-tab-nav {
+      .active {
+        color: $accent-color1;
+      }
+    }
+  }
+
+}

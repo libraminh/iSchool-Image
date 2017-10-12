@@ -1,0 +1,47 @@
+.event-list-primary {
+  .home-event {
+    padding: 0 !important;
+  }
+
+  .card {
+    .card-date {
+      padding: 0.5rem 1rem;
+
+      &:hover {
+        span:first-child {
+          border-color: $accent-color1;
+        }
+      }
+
+      span {
+        &:first-child {
+          font-size: 30px;
+          font-weight: 600;
+          border-bottom: 1px solid $white-color;
+        }
+
+        &:last-child {
+          margin-top: 5px;
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+
+    .btn-two {
+      &:hover {
+        background: $accent-color;
+        border-color: $accent-color;
+      }
+    }
+  }
+
+  .pagination-wrap {
+    display: flex;
+    justify-content: center;
+
+    .pagination-1 {
+      margin-top: 20px;
+    }
+  }
+}

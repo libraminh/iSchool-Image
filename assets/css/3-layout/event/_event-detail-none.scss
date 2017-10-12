@@ -1,0 +1,63 @@
+.event-detail-none {
+  .single-course-right-enroll {
+    margin-bottom: 25px;
+
+    .single-course-right-enroll-box {
+      justify-content: space-between;
+      flex: 1;
+    }
+
+    .single-course-right-enroll-wrap {
+      span {
+        &:nth-child(1) {
+          flex: none;
+        }
+      }
+    }
+  }
+}
+
+.single-course-right-post-img {
+  position: relative;
+
+  #single-course-right-post-img-clock {
+    width: 95%;
+    padding: 20px 30px;
+    background: linear-gradient(-135deg, #fddf03, #ff961a);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .wrap-count {
+      padding: 10px 0 13px;
+      text-transform: uppercase;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      background: rgba(white,0.15);
+      margin-right: 30px;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+
+    .top-count {
+      font-size: 30px;
+      font-weight: 600;
+      width: auto;
+      height: auto;
+      border: none;
+      margin: 0;
+    }
+
+    .break {
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+}

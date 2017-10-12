@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+  .course-list-right-page, .course-list-left-page, .course-list-none-page, .home2 .home-popular {
+    .home-event {
+      .card {
+        flex-direction: column !important;
+        margin-bottom: 30px !important;
+
+        &-body {
+          width: 100% !important;
+          transform: none !important;
+          position: static;
+        }
+      }
+    }
+  }
+}

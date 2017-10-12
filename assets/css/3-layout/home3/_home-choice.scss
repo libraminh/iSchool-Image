@@ -1,0 +1,55 @@
+.home-choice {
+  padding-top: 70px;
+
+  &-tabcontent {
+    p {
+      @include font('Poppins');
+      font-size: 14px;
+      color: #000000;
+    }
+  }
+
+  &-tab {
+    border-right: 1px solid $border-color2;
+
+    li {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    a {
+      width: 70%;
+      padding: 5px 0;
+      font-size: 20px;
+      color: $dark-color;
+      @include hoverColor($accent-color1);
+    }
+
+    &-btn {
+      width: 20px !important;
+      height: 20px;
+      background: $text-color;
+      border: 2px solid $border-color3;
+      transform: translateX(10px) rotate(45deg);
+
+      &:hover {
+        background: $accent-color1;
+        border: 2px solid $accent-color;
+        border-spacing: 10;
+      }
+    }
+  }
+
+  .globe-wrap {
+    transform: scale(0.9);
+    &:before {
+      border-color: $accent-color;
+    }
+  }
+
+  .col-md-6 {
+    // padding: 0 30px;
+  }
+}

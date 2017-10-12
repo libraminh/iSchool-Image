@@ -1,0 +1,149 @@
+/*******
+ // GLOBAL CSS
+********/
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+body {
+  @include font('Montserrat');
+}
+
+.course-list-left {
+  margin-top: 140px;
+}
+
+.single-course-right-page, .course-list-right-page,
+.course-grid-right-page, .blog-list-sidebar-page,
+.blog-grid-sidebar-page, .blog-detail-page,
+.blog-classic-page {
+  .sidebar-section {
+    padding-left: 0;
+    border-left: 1px solid $border-color1;
+  }
+
+  .sidebar-ads, .sidebar-latest, .sidebar-nav, .sidebar-tag {
+    padding-left: 15px;
+    border-left: 1px solid $border-color1;
+    border-bottom: 1px solid $border-color1;
+  }
+
+  .sidebar-ads {
+    margin-left: 15px;
+    padding: 20px;
+  }
+}
+
+.single-course-left-page, .event-list-left-page,
+.event-grid-left-page, .event-detail-page,
+.course-list-left-page, .course-grid-left-page, .sidebar-tag, .sidebar-tag {
+  .sidebar-section {
+    padding-right: 0;
+    border-right: 1px solid $border-color1;
+  }
+
+  .sidebar-ads, .sidebar-latest, .sidebar-nav {
+    padding-right: 15px;
+    border-right: 1px solid $border-color1;
+    border-bottom: 1px solid $border-color1;
+  }
+
+  .sidebar-ads {
+    margin-right: 15px;
+    padding: 20px;
+  }
+}
+
+.sidebar-section {
+  flex: 0 0 31%;
+  max-width: 35%;
+}
+
+.primary-section {
+  flex: 0 0 69%;
+  max-width: 69%;
+}
+
+
+/*******
+ // GLOBAL CLASS
+********/
+
+.accent-color1 {
+  color: $accent-color1;
+}
+
+.accent-color {
+  color: $accent-color;
+}
+
+.text-color {
+  color: $text-color;
+}
+
+.Pl20 {
+  padding-left: 20px !important;
+}
+
+.P0 {
+  padding: 0 !important;
+}
+
+.Pr15 {
+  padding-right: 15px !important;
+}
+
+.Pl15 {
+  padding-left: 15px !important;
+}
+
+.globe-wrap, .globe-wrap-1, .globe-wrap-2 {
+  display: block;
+  position: relative;
+
+  &:before {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border: 1px solid $accent-color1;
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    z-index: 1;
+  }
+
+  img {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.globe-wrap-1 {
+  &:before {
+    top: 20px;
+    left: -20px;
+  }
+}
+
+.globe-wrap-2 {
+  &:before {
+    top: 30px;
+    left: 30px;
+  }
+}
+
+.hr-1 {
+  border-color: $border-color1;
+}
+
+.no-margin {
+  margin: 0 !important;
+}

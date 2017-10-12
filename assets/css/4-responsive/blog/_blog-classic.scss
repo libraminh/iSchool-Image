@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  .blog-classic-page {
+    .col-md-12:last-child {
+      .card-body {
+        transform: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .blog-classic-page {
+    .course-list-primary .home-popular {
+      padding: 15px !important
+    }
+
+    .blog-classic {
+      .card-body {
+        padding: 10px;
+      }
+    }
+  }
+}

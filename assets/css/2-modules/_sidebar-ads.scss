@@ -1,0 +1,28 @@
+.sidebar-ads {
+  background: url('../img/image/sidebar/readmore-bg.png') no-repeat center;
+  background-size: cover;
+  padding: 20px;
+  margin-bottom: 40px;
+
+  &-wrap {
+    padding: 50px 30px;
+    border: 1px solid #ffdc87;
+
+    h3 {
+      color: $white-color;
+      font-size: 30px;
+      margin-bottom: 7px;
+    }
+  }
+
+  .btn-three {
+    display: block;
+    margin-top: 30px;
+    font-size: 12px;
+    margin-bottom: 10px;
+
+    &:hover {
+      color: $accent-color1;
+    }
+  }
+}

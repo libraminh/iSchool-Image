@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .blog-detail-page {
+    .home-popular {
+      padding: 0 15px !important;
+    }
+
+    .blog-detail-wrap {
+      iframe {
+        min-height: 300px;
+      }
+    }
+  }
+}

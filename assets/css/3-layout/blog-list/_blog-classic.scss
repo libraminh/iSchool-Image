@@ -1,0 +1,43 @@
+.blog-classic {
+  .card {
+    &-title {
+      font-size: 30px !important;
+      line-height: 32px !important;
+    }
+
+    &-info {
+      margin: 20px 0 0px;
+    }
+
+    .btn-two {
+      color: $white-color;
+      padding: 10px 17px;
+      font-size: 12px;
+      @include hoverColor($white-color);
+    }
+
+  }
+
+  .card-iframe {
+    width: 100%;
+    min-height: 190px;
+    margin-bottom: 30px;
+
+    .media-control-layer {
+      bottom: 32px !important;
+    }
+  }
+
+  .card-video {
+    .card-wrap-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .play-icon {
+      position: absolute;
+    }
+  }
+}

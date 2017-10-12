@@ -1,0 +1,71 @@
+.contact {
+  padding: 130px 0 100px;
+
+  &-title {
+    font-size: 36px;
+    background: url('../img/home/event/logo.png') no-repeat center;
+    background-size: 30%;
+    margin-bottom: 65px;
+  }
+
+  .col-md-4 {
+    &:last-child .contact-table::before {
+      display: none;
+    }
+  }
+
+  &-table {
+    position: relative;
+    margin-bottom: 20px;
+
+    &:before {
+      display: block;
+      content: '';
+      width: 1px;
+      height: 174px;
+      background: $border-color1;
+      position: absolute;
+      left: 100%;
+      top: 0;
+    }
+
+    img {
+      width: 15%;
+      // height: 60px;
+      margin-bottom: 30px;
+    }
+
+    &-title {
+      color: $text-color2;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    &-address {
+      font-size: 14px;
+      color: $text-color3;
+    }
+  }
+
+  &-map {
+    padding: 30px 0;
+    border-top: 1px solid $border-color1;
+    border-bottom: 1px solid $border-color1;
+  }
+
+  &-form {
+    padding: 125px 0 0;
+
+    &-title {
+      background: url('../img/home/event/logo.png') no-repeat center;
+      background-size: 15%;
+      font-size: 36px !important;
+      margin-bottom: 70px !important;
+    }
+
+    .btn-two {
+      padding: 10px 20px;
+    }
+  }
+}

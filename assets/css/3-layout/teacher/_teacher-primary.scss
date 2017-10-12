@@ -1,0 +1,64 @@
+.teacher-primary {
+  &-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+
+    h3 {
+      font-size: 36px;
+      font-weight: 600;
+      background: url('../img/home/event/logo.png') no-repeat center;
+      background-size: 40%;
+    }
+  }
+
+  .home-teacher {
+    padding: 80px 0 10px;
+    width: 100%;
+
+    .col-md-4 {
+      margin-bottom: 55px;
+    }
+
+    h4 {
+      color: $dark-color;
+      font-size: 24px;
+      @include hoverColor($accent-color1);
+      margin-top: 35px;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 600;
+      color: $text-color3;
+      text-align: center;
+    }
+
+    .carousel-2-wrap {
+      margin-right: 10px;
+
+      img {
+        width: 100%;
+      }
+
+      &:hover .carousel-2-wrap-overlay {
+        opacity: 1;
+      }
+
+      .carousel-2-wrap-overlay {
+        transition: all .5s ease-in-out;
+
+        p {
+          font-size: 14px;
+          color: $white-color;
+          text-align: left;
+          line-height: 24px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

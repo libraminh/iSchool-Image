@@ -1,0 +1,55 @@
+
+@media (max-width: 768px) {
+  .about-page {
+    .home-choice {
+
+      .col-md-12:first-child {
+        margin-bottom: 20px;
+
+        h3 {
+          margin-bottom: 20px;
+        }
+      }
+
+      &-tab {
+        flex-wrap: nowrap;
+        border: none;
+      }
+
+      &-tab-btn {
+        display: none;
+      }
+
+      .home-choice-tabcontent {
+        p {
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .home-welcome {
+      padding: 20px 0;
+
+      &-title {
+        margin-bottom: 20px !important;
+      }
+
+      .col-md-6:first-child {
+        margin-bottom: 30px;
+      }
+    }
+
+    .home-teacher {
+      padding: 70px 0 !important;
+    }
+  }
+}
+
+
+@media (max-width: 575px) {
+  .about-page {
+    .home-choice-tab {
+      flex-direction: column;
+    }
+  }
+}

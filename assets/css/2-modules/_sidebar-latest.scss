@@ -1,0 +1,38 @@
+.sidebar-latest {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .media {
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    img {
+      width: 70px;
+      height: 70px;
+    }
+  }
+
+  .media-body {
+    h5 {
+      font-size: 14px;
+      color: $text-color2;
+      font-weight: 600;
+      line-height: 20px;
+      margin-bottom: 5px;
+      @include hoverColor($accent-color1);
+    }
+
+    span {
+      font-size: 14px;
+    }
+  }
+}

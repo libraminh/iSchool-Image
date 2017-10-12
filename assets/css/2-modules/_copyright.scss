@@ -1,0 +1,40 @@
+.copyright {
+  background: $copyright-bg;
+  padding: 15px 0;
+  color: $text-color4;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+
+  p {
+    &:first-child {
+      a {
+        color: $white-color;
+      }
+    }
+
+    &:last-child {
+      display: flex;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        color: $text-color4;
+        border: 1px solid $text-color4;
+        margin-right: 10px;
+      }
+
+      i {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .row {
+    align-items: center;
+    justify-content: space-between;
+  }
+}

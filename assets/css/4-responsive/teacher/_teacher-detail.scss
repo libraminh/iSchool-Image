@@ -1,0 +1,45 @@
+@media (max-width: 992px) {
+  .teacher-detail {
+    padding-top: 0 !important;
+  }
+
+  .teacher-detail-page {
+    .teacher-detail-primary {
+      .media {
+        flex-direction: column;
+      }
+    }
+  }
+
+  .teacher-detail-course {
+    .col-md-6 {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .teacher-detail-page {
+    .teacher-detail-primary {
+      padding: 50px 0;
+    }
+
+    .carousel-2-wrap {
+      transform: none;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .teacher-detail-page {
+    .home-teacher {
+      width: 100%;
+    }
+    
+    .teacher-detail-primary .carousel-2-wrap {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

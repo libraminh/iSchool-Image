@@ -1,0 +1,41 @@
+.breadcrumb-wrap {
+  padding: 50px 0;
+  background: url('../img/image/breadcrumb-bg.png') no-repeat center;
+  background-size: cover;
+  margin-bottom: 50px;
+
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  h2 {
+    color: $white-color;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .breadcrumb-1 {
+    padding: 0;
+    background: none;
+
+    .breadcrumb-item + .breadcrumb-item::before {
+      content: '//';
+      color: $white-color;
+    }
+
+    li {
+      font-size: 14px;
+      color: $white-color;
+
+    }
+
+    a {
+      color: $white-color;
+      font-size: 14px;
+    }
+
+  }
+}

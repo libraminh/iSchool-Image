@@ -1,0 +1,40 @@
+@media (max-width: 992px) {
+  .home-teacher {
+    .item {
+      padding: 50px;
+    }
+  }
+
+  .home3 {
+    .home-teacher {
+      padding: 100px 0 !important;
+
+      .carousel-2 {
+        margin: 0;
+      }
+
+      .owl-dot {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .home-teacher {
+    padding: 70px 0;
+
+    .owl-carousel {
+      padding: 20px;
+      margin-top: 0;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .home-teacher {
+    .item {
+      padding: 25px;
+    }
+  }
+}

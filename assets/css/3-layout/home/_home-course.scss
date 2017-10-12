@@ -1,0 +1,57 @@
+.home-course {
+  .col-md-12 {
+    &:nth-child(1) {
+      .carousel-4 {
+        transform: translateY(-15%);
+      }
+
+      .globe-wrap-1 {
+        &:before {
+          border-color: $accent-color;
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      padding: 45px 0;
+
+      ul.list {
+        width: 100%;
+      }
+
+      h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+
+      .form-control {
+        border: none !important;
+        border-radius: 0 !important;
+        border-bottom: 1px solid $border-color2 !important;
+        padding-left: 0 !important;
+        color: $text-color3 !important;
+
+        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+          color: $text-color3;
+        }
+        &::-moz-placeholder { /* Firefox 19+ */
+          color: $text-color3;
+        }
+        &:-ms-input-placeholder { /* IE 10+ */
+          color: $text-color3;
+        }
+        &:-moz-placeholder { /* Firefox 18- */
+          color: $text-color3;
+        }
+      }
+
+      .btn-two {
+        float: right;
+        margin-top: 30px;
+        font-size: 12px;
+        padding: 1rem 2.5rem
+      }
+    }
+  }
+}

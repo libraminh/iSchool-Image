@@ -1,0 +1,31 @@
+.topbar {
+  height: 40px;
+  background: $topbar-bg;
+  color: $white-color;
+  @include font('Montserrat');
+  padding: 0.3rem 0;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+
+  .row {
+    justify-content: space-between;
+  }
+
+  p {
+    color: $text-color;
+  }
+
+  a {
+    color: $text-color;
+    padding: 0 0.2rem;
+
+    &:first-child {
+      border-right: 1px solid $text-color;
+    }
+  }
+
+  span {
+    color: $white-color;
+  }
+}

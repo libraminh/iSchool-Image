@@ -1,0 +1,21 @@
+.home-blog {
+  padding: 135px 0;
+
+  &-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+
+    h3 {
+      background: url('../img/home/event/logo.png') no-repeat center;
+      background-size: 50%;
+      font-size: 36px;
+    }
+  }
+
+  .carousel-9 .blog-grid-sidebar {
+    padding: 0;
+  }
+
+}

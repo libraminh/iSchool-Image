@@ -1,0 +1,38 @@
+.blog-list-sidebar {
+  .card {
+    &-body {
+      padding: 35px;
+    }
+
+    &-info {
+      margin: 15px 0;
+    }
+
+    &-author {
+      color: $text-color;
+      font-weight: 600;
+    }
+
+    &-metadata {
+      color: $text-color;
+      font-size: 12px;
+      margin-left: 1rem;
+
+      i {
+        padding-right: 5px;
+        font-size: 15px;
+        transform: translateY(-3px);
+      }
+    }
+
+    &-text {
+      margin: 15px 0;
+    }
+
+    .btn-globe {
+      font-size: 14px;
+      padding: 10px 0;
+      position: static;
+    }
+  }
+}

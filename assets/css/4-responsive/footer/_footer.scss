@@ -1,0 +1,20 @@
+@media (max-width: 992px) {
+  .footer {
+    padding: 60px 0 !important;
+
+    .col-md-6 {
+      margin-bottom: 30px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 992px) {
+  .footer h4 {
+    margin-bottom: 20px;
+  }
+}

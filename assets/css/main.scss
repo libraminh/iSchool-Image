@@ -1,0 +1,300 @@
+/*******
+  ***** Import Tools *****
+*******/
+@import url('https://file.myfontastic.com/k26CQXwjY6qSzqSL7zrPXQ/icons.css');
+@import "0-tools/bootstrap/scss/bootstrap";
+@import "0-tools/font-awesome/css/font-awesome.min.css";
+@import "0-tools/animate.css";
+@import "0-tools/owl-carousel/owl.carousel";
+@import "0-tools/owl-carousel/owl.theme.default";
+@import "0-tools/nice-select/nice-select.css";
+@import "0-tools/hoverDir/style.css";
+@import "0-tools/magnific/magnific-popup.css";
+
+
+/*******
+  ***** Import Base *****
+*******/
+@import "1-base/vars";
+@import "1-base/mixin";
+@import "1-base/base";
+
+
+/*******
+  ***** Import Components *****
+*******/
+
+  /*	Topbar Component */
+  @import "2-modules/topbar";
+  @import "2-modules/button";
+
+  /*	Navbar Component */
+  @import "2-modules/menu";
+
+  /*	Clock Component */
+  @import "2-modules/clock";
+
+  /*	Carousel Component */
+  @import "2-modules/carousel";
+
+  /*	Breadcrumb Component */
+  @import "2-modules/breadcrumb";
+
+  /*	Pagination Component */
+  @import "2-modules/pagination";
+
+  /*	Sidebar-nav Component */
+  @import "2-modules/sidebar-nav";
+
+  /*	Sidebar-latest Component */
+  @import "2-modules/sidebar-latest";
+
+  /*	Sidebar-ads Component */
+  @import "2-modules/sidebar-ads";
+
+  /*	Error Component */
+  @import "2-modules/error";
+
+  /*	Also Component */
+  @import "2-modules/also-like";
+
+  /*	Footer Component */
+  @import "2-modules/footer";
+
+  /*	Copyright Component */
+  @import "2-modules/copyright";
+
+
+/*******
+  ***** Import Layout *****
+*******/
+
+  /*	Home-thumb  */
+  @import "3-layout/home/home-thumb";
+  @import "3-layout/home/home-choice";
+  @import "3-layout/home/home-event";
+  @import "3-layout/home/home-popular";
+  @import "3-layout/home/home-signup";
+
+  /*	Home Subscribe  */
+  @import "3-layout/home/home-subscribe";
+
+  /*	Home Teacher  */
+  @import "3-layout/home/home-teacher";
+
+  /*	Home Search  */
+  @import "3-layout/home/home-search";
+
+  /*	Home Welcome  */
+  @import "3-layout/home/home-welcome";
+
+  /*	Home Gallery  */
+  @import "3-layout/home/home-gallery";
+
+  /*	Home Quote  */
+  @import "3-layout/home/home-quote";
+
+  /*	Home3 Course  */
+  @import "3-layout/home/home-course";
+
+  /*	Home3 Choice  */
+  @import "3-layout/home3/home-choice";
+
+  /*	Home3 Popular  */
+  @import "3-layout/home3/home-popular";
+
+  /*	Home3 Chart  */
+  @import "3-layout/home3/home-chart";
+
+  /*	Home3 Signup  */
+  @import "3-layout/home3/home-signup";
+
+  /*	Home3 Thumb  */
+  @import "3-layout/home3/home-thumb";
+
+  /*	Home3 Blog  */
+  @import "3-layout/home3/home-blog";
+
+  /*	Section Sorting */
+  @import "3-layout/course-list-left/sorting";
+
+  /*	Section Course List Primary */
+  @import "3-layout/course-list-left/course-list-primary";
+
+  /*	Section Course Grid Right */
+  @import "3-layout/course-grid/course-grid-right";
+
+  /*	Section Event List Primary */
+  @import "3-layout/event-list/event-list-primary";
+
+  /*	Section Event List Left */
+  @import "3-layout/event-list/event-list-left";
+
+  /*	Section Event Grid Primary */
+  @import "3-layout/event-grid/event-grid-primary";
+
+  /*	Section Blog List Sidebar */
+  @import "3-layout/blog-list/blog-list-sidebar";
+
+  /*	Section Blog Grid Sidebar */
+  @import "3-layout/blog-list/blog-grid-sidebar";
+
+  /*	Section Blog Classic */
+  @import "3-layout/blog-list/blog-classic";
+
+  /*	Section Blog Detail */
+  @import "3-layout/blog-list/blog-detail";
+
+  /*	Contact Page */
+  @import "3-layout/contact/contact";
+
+  /*	Gallery-2 Page */
+  @import "3-layout/gallery/gallery-2";
+
+  /*	Gallery-1 Page */
+  @import "3-layout/gallery/gallery-1";
+
+  /*	Gallery-3 Page */
+  @import "3-layout/gallery/gallery-3";
+
+  /*	Single Course Right Page */
+  @import "3-layout/single-course/single-course-right";
+
+  /*	Teacher Detail Page */
+  @import "3-layout/teacher/teacher-detail";
+
+  /*	Event Detail Page */
+  @import "3-layout/event/event-detail";
+
+  /*	Event Detail None Sidebar Page */
+  @import "3-layout/event/event-detail-none";
+
+  /*	Teacher Primary Page */
+  @import "3-layout/teacher/teacher-primary";
+
+  /*	About Page */
+  @import "3-layout/about/about";
+
+
+/*******
+  ***** Import Responsive *****
+*******/
+
+  /*	Menu */
+  @import "4-responsive/header";
+
+/***** HOME *****/
+
+  /*	Home Thumb */
+  @import "4-responsive/home/home-thumb";
+
+  /*	Home Choice */
+  @import "4-responsive/home/home-choice";
+
+  /*	Home Signup */
+  @import "4-responsive/home/home-signup";
+
+  /*	Home Teacher */
+  @import "4-responsive/home/home-teacher";
+
+  /*	Home Subscribe */
+  @import "4-responsive/home/home-subscribe";
+
+  /*	Home Quote */
+  @import "4-responsive/home/home-quote";
+
+  /*	Home Event */
+  @import "4-responsive/home/home-event";
+
+  /*	Home Search */
+  @import "4-responsive/home/home-search";
+
+  /*	Home Welcome */
+  @import "4-responsive/home/home-welcome";
+
+  /*	Home Popular */
+  @import "4-responsive/home/home-popular";
+
+  /*	Home Course */
+  @import "4-responsive/home/home-course";
+
+  /*	Home Chart */
+  @import "4-responsive/home/home-chart";
+
+
+/**** FOOTER ****/
+
+  /*	Footer */
+  @import "4-responsive/footer/footer";
+
+  /*	Copyright */
+  @import "4-responsive/footer/copyright";
+
+
+/**** TEACHER ****/
+
+  /*	Teacher Detail */
+  @import "4-responsive/teacher/teacher-detail";
+
+  /*	Teacher Primary */
+  @import "4-responsive/teacher/teacher-primary";
+
+
+/**** SINGLE COURSE ****/
+
+  /*	Single Course */
+  @import "4-responsive/single-course/single-course";
+
+
+/**** EVENT ****/
+
+  /*	Event List None */
+  @import "4-responsive/event/event-list-none";
+
+  /*	Event List Left */
+  @import "4-responsive/event/event-list-left";
+
+  /*	Event Detail */
+  @import "4-responsive/event/event-detail";
+
+
+/**** SORTING ****/
+@import "4-responsive/sorting";
+
+
+/**** ERROR ****/
+@import "4-responsive/error";
+
+
+/**** CONTACT ****/
+@import "4-responsive/contact";
+
+
+/**** ABOUT ****/
+@import "4-responsive/about";
+
+
+/**** GALLERY ****/
+@import "4-responsive/gallery/gallery";
+
+
+/**** BREADCRUMB ****/
+@import "4-responsive/breadcrumb";
+
+/**** BASE ****/
+@import "4-responsive/base";
+
+
+/**** COURSE LIST ****/
+
+  /*	Course List Right */
+  @import "4-responsive/course-list/course-list-right";
+
+
+/**** BLOG ****/
+
+  /*	Blog Detail */
+  @import "4-responsive/blog/blog-detail";
+
+  /*	Blog Classic */
+  @import "4-responsive/blog/blog-classic";

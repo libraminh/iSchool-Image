@@ -1,0 +1,107 @@
+@media (max-width: 992px) {
+  .menu {
+    height: 70px;
+    border-bottom: none;
+
+    .navbar {
+      padding: 10px 0;
+      background: $white-color !important;
+
+      .navbar-nav {
+        padding: 10px 0;
+        margin: 0 !important;
+
+        a {
+          &:focus {
+            color: $dark-color !important;
+          }
+        }
+      }
+
+      .navbar-brand img {
+        width: 90%;
+        margin-left: 20px;
+      }
+    }
+
+    .navbar-nav {
+
+      a {
+        color: $dark-color !important;
+        line-height: 50px !important;
+        padding: 0 20px;
+        border-bottom: 1px dotted $border-color3 !important;
+
+        &:hover {
+          color: $accent-color1 !important;
+        }
+      }
+    }
+
+    .sub-menu, .sub-menu-2 {
+      opacity: 1 !important;
+      width: 100% !important;
+      position: static !important;
+      transform: none !important;
+      border: none !important;
+      display: none;
+      transition: none !important;
+      padding: 0 35px;
+
+      li {
+        border: none !important;
+        border-bottom: 1px dotted $text-color !important;
+      }
+
+      a {
+        padding: 0;
+
+        &:hover {
+          padding: 0 !important;
+        }
+      }
+    }
+
+    .sub-menu-2 {
+      padding: 0 15px !important;
+
+      li:last-child {
+        border-bottom: none !important;
+      }
+    }
+
+    .bag-icon {
+      color: $dark-color;
+      padding: 0 20px;
+      float: right;
+
+      .menu-badge {
+        left: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    img {
+      width: 70% !important;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .topbar {
+    padding: 30px 0;
+
+    .row {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      p:first-child {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

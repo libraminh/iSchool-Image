@@ -1,0 +1,50 @@
+/**** CREATE BUTTON ****/
+
+.btn-globe {
+  color: $white-color;
+  padding: 1rem 1.5rem;
+  @include font('Montserrat');
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  i {
+    margin-left: 0.5rem;
+  }
+}
+
+.btn-one {
+  background: transparent;
+  border: 1px solid $white-color;
+  @include hoverColor($white-color);
+}
+
+.btn-two {
+  background: $accent-color1;
+  border: 1px solid $accent-color1;
+  @include hoverColor($white-color);
+}
+
+.btn-three {
+  background: $white-color;
+  color: $accent-color1;
+}
+
+.btn-four {
+  background: $accent-color;
+  color: $white-color;
+  @include hoverColor($white-color);
+}
+
+.btn-tag {
+  font-size: 14px;
+  color: $text-color3;
+  border: 1px solid $border-color3;
+  border-radius: 0 !important;
+  margin-bottom: 10px;
+
+  &:hover {
+    color: $white-color;
+    background: $accent-color1;
+    border-color: $accent-color1;
+  }
+}

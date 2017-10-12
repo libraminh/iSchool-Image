@@ -1,0 +1,29 @@
+.blog-grid-sidebar {
+  .card {
+
+    &-info {
+      margin: 15px 0 0;
+    }
+
+    &-author {
+      color: $text-color !important;
+      font-weight: 600;
+    }
+
+    &-metadata {
+      color: $text-color;
+      font-size: 12px;
+      margin-left: 1rem;
+
+      i {
+        font-size: 15px;
+        transform: translateY(-3px);
+      }
+    }
+
+    .btn-globe {
+      font-size: 14px;
+      position: static;
+    }
+  }
+}
